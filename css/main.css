@@ -1,0 +1,35 @@
+body{
+    color:#333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+img{
+     /* 이미지 아래의 공간을 없애 줄 수 있다. */
+     display: block;
+}
+header{
+
+    background-color: cornflowerblue;
+
+}
+
+header.inner{
+
+width:1100px;
+height:200px;
+margin: 0 auto;
+background-color: orange;
+position: relative;
+
+}
+
+header.logo{
+    height:75px;
+    position:absolute; 
+    top:0;
+    bottom:0;
+    margin:auto;
+}
